@@ -25,6 +25,7 @@
       && isset($input)
   ) {
 
+      
     if (!is_numeric($input)) {
       $statement = "Please enter a number";
     } else if ($operation == 1) {
